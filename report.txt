@@ -1,0 +1,107 @@
+================================================================
+      HOUSE PRICE PREDICTION USING MACHINE LEARNING
+           Academic Project Report | 2025
+================================================================
+
+SUBMITTED BY : Dhruv Bamal, Prashant
+REG. NUMBER  : RA2311003030447, RA2311003030441
+SUBJECT      : Data Science
+INSTITUTION  : SRM Institue of Sciene and Technology
+
+----------------------------------------------------------------
+1. TITLE
+----------------------------------------------------------------
+House Price Prediction using Linear Regression in Python
+
+----------------------------------------------------------------
+2. OBJECTIVE
+----------------------------------------------------------------
+The objective of this project is to build a simple Machine 
+Learning model that can predict the price of a house based on 
+its area (in square feet). The project demonstrates how 
+computers can learn patterns from data and use those patterns 
+to make intelligent predictions — which is the core idea behind 
+Artificial Intelligence and Machine Learning.
+
+----------------------------------------------------------------
+3. TOOLS AND TECHNOLOGIES USED
+----------------------------------------------------------------
+- Language    : Python 3.x
+- Libraries   : 
+    pandas        → for organizing and storing data in a table
+    scikit-learn  → for building the Machine Learning model
+    matplotlib    → for drawing graphs and visualizations
+- Editor      : Visual Studio Code (VS Code)
+- Algorithm   : Linear Regression
+
+----------------------------------------------------------------
+4. METHODOLOGY
+----------------------------------------------------------------
+
+Step 1 — Data Collection:
+A small dataset of 10 houses was created manually. Each house 
+has two values: its Area (in sq ft) and its Price (in Lakhs ₹). 
+This data was stored in a pandas DataFrame, which works like an 
+Excel table inside Python.
+
+Step 2 — Data Preparation:
+The dataset was split into two parts:
+  - X (Input)  → The Area of the house
+  - y (Output) → The Price of the house
+The model uses X to learn how to predict y.
+
+Step 3 — Model Training:
+A Linear Regression model from the scikit-learn library was 
+created. The model was trained using model.fit(X, y), which 
+tells the model: "Study these 10 examples and find the 
+relationship between area and price."
+
+Step 4 — Prediction:
+After training, the model was given a new, unseen house area 
+of 1600 sq ft and asked to predict the price. The model 
+returned a prediction of ₹64.00 Lakhs.
+
+Step 5 — Visualization:
+A graph was drawn using matplotlib showing:
+  - Blue dots: The actual data points from our dataset
+  - Red line : The regression line the model learned
+  - Green star: Our predicted point (1600 sq ft → ₹64 Lakhs)
+
+----------------------------------------------------------------
+5. RESULT
+----------------------------------------------------------------
+The Linear Regression model was successfully trained on the 
+dataset. When tested with a house area of 1600 square feet, 
+the model predicted a price of ₹64.00 Lakhs.
+
+The graph clearly shows that the regression line fits the data 
+well, confirming that a strong linear relationship exists 
+between house area and price in our dataset.
+
+----------------------------------------------------------------
+6. CONCLUSION
+----------------------------------------------------------------
+This project successfully demonstrates the application of 
+Machine Learning to a real-world problem — predicting house 
+prices. Using Python and the scikit-learn library, we built a 
+Linear Regression model that learned patterns from a small 
+dataset and made accurate predictions.
+
+Key takeaways from this project:
+  1. Machine Learning models learn from data without being 
+     explicitly programmed with rules.
+  2. Linear Regression is the simplest and most interpretable 
+     ML algorithm — ideal for understanding relationships 
+     between two continuous variables.
+  3. Python libraries like pandas, scikit-learn, and matplotlib 
+     make it easy to build, train, and visualize ML models.
+
+In the future, this project can be extended by:
+  - Adding more features (number of bedrooms, location, etc.)
+  - Using a larger real-world dataset (e.g., from Kaggle)
+  - Trying more advanced algorithms like Decision Trees or 
+    Random Forest for better accuracy
+
+================================================================
+                      END OF REPORT
+================================================================
