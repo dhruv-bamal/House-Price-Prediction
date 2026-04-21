@@ -37,7 +37,7 @@ import sys
 #     https://raw.githubusercontent.com/datasciencedojo/datasets/master/titanic.csv
 #   (change TARGET_COLUMN to 'Survived' and FEATURE_COLUMNS accordingly)
 
-DATASET_URL = "https://raw.githubusercontent.com/dhruv-bamal/House-Price-Prediction/main/data.csv"
+DATASET_URL = "https://raw.githubusercontent.com/dhruv-bamal/House-Price-Prediction/refs/heads/main/data.csv"
 
 # TARGET_COLUMN = the column you want to PREDICT (the answer/output)
 # In house price datasets, this is usually 'price', 'Price', 'SalePrice', etc.
