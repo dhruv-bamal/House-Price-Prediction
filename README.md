@@ -251,6 +251,7 @@ House-Price-Prediction/
 ├── main.py           # Main analysis script
 ├── README.md         # This file
 ├── report.txt        # Academic project report
+├── data.csv          # Dataset
 └── dashboard.png     # (Generated) Analysis dashboard visualization
 ```
 
